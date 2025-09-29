@@ -68,7 +68,7 @@ class Editor extends React.Component {
 				<ImgProvider>
 					<div className="flex md:flex-row flex-col  ">
 
-						<div className="bg-white flex flex-col h-100 md:w-3/12">
+				<div className="bg-white flex flex-col h-100 md:w-3/12 w-full">
 
 							<div>
 								<div className="flex md:flex-row flex-col">
@@ -231,7 +231,7 @@ class Editor extends React.Component {
 
 						{/* cover image preview */}
 
-						<div className=" flex m-2 flex-col items-center justify-center ">
+					<div className=" flex m-2 flex-col items-center justify-center w-full overflow-x-hidden ">
 
 							<ComponentToImg downloadAs={this.state.download}>
 								<CoverImage {...this.state} />

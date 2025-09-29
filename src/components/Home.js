@@ -12,7 +12,7 @@ const Home = () => {
             <div className="bg-white shadow-sm">
                 <div className="text-xl flex p-4 md:w-10/12 mx-auto">
                     <div className="flex items-center">
-                        <img src="/logo.png" alt="Coverlab" className="w-8 h-8 mx-2" />
+                        <img src={logo} alt="Coverlab" className="w-8 h-8 mx-2" />
                         <h1 className="font-semibold md:text-xl text-lg font-Inter">Coverlab</h1>
                     </div>
                     <a href="https://github.com/Rambabu-Akkapolu/Coverlab" target="_blank" rel="noreferrer" className="hover:translate-x-2 flex items-center justify-center duration-300 bg-gray-700 group rounded-xl text-white ml-auto mr-4 font-Inter font-semibold">
@@ -29,14 +29,8 @@ const Home = () => {
                     <p className="md:text-xl text-lg text-gray-600 text-center mb-8 max-w-2xl">Coverlab pairs beautiful themes with Unsplash search, live previews, and one‑click export.</p>
                     <div className="flex gap-3">
                         <Link to="/editor" className="hover:scale-[1.02] transition bg-gray-900 hover:bg-black rounded-full px-6 py-3 text-white text-base font-semibold">Open Editor</Link>
-                        <a href="https://github.com/Rambabu-Akkapolu/Coverlab" className="hover:scale-[1.02] transition border border-gray-300 rounded-full px-6 py-3 text-gray-800 text-base font-semibold">Star on GitHub</a>
                     </div>
-                    <div className="flex gap-4 mt-6 text-sm text-gray-600">
-                        <a href="mailto:rambabuakkapolu970@gmail.com" className="hover:text-gray-800">Email</a>
-                        <a href="https://www.linkedin.com/in/rambabu-akkapolu/" target="_blank" rel="noreferrer" className="hover:text-gray-800">LinkedIn</a>
-                        <a href="https://x.com/A_Rambabu_" target="_blank" rel="noreferrer" className="hover:text-gray-800">X</a>
-                        <a href="https://github.com/Rambabu-Akkapolu" target="_blank" rel="noreferrer" className="hover:text-gray-800">GitHub</a>
-                    </div>
+                    
                 </div>
             </section>
 

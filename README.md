@@ -2,43 +2,58 @@
 
 # Coverlab
 
-Create standout blog cover images in seconds.
+Generate professional blog cover images in seconds — consistent, on‑brand, and production‑ready.
 
-[![React](https://img.shields.io/badge/React-16.13-blue?logo=react)](https://react.dev)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
-[![Unsplash API](https://img.shields.io/badge/Unsplash-API-000000?logo=unsplash)](https://unsplash.com/developers)
-[![License](https://img.shields.io/badge/Project-Showcase-success)](#)
+<p>
+  <a href="https://react.dev"><img alt="React" src="https://img.shields.io/badge/React-16.13-0ea5e9?logo=react&logoColor=white"></a>
+  <a href="https://tailwindcss.com"><img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind-3-06B6D4?logo=tailwindcss&logoColor=white"></a>
+  <a href="https://unsplash.com/developers"><img alt="Unsplash API" src="https://img.shields.io/badge/Unsplash-API-111827?logo=unsplash&logoColor=white"></a>
+  <img alt="Export" src="https://img.shields.io/badge/Export-DOM--to--Image-0f766e">
+  <img alt="ESLint" src="https://img.shields.io/badge/ESLint-Clean-6d28d9">
+</p>
 
-<img src="public/logo.png" alt="Coverlab" width="96" />
+<img src="./src/assets/icons/logo.png" alt="Coverlab logo" width="96" />
 
 </div>
 
-## Highlights
+## Overview
 
-- Unsplash search built in (no tab‑switching)
+Coverlab streamlines cover creation for blogs. Curated themes, integrated image search, and one‑click export help you produce consistent visuals without opening a design tool.
+
+## Capabilities
+
+- Integrated Unsplash search (no tab‑switching)
 - 7+ designer themes with live preview
-- One‑click export (PNG) at perfect blog sizes
-- Custom brand icon upload, fonts, and colors
-- Clean, responsive, recruiter‑friendly UI
+- One‑click PNG export (accurate blog sizes)
+- Brand controls: icon, colors, typography
+- Responsive, keyboard‑friendly UI
 
-## Demo (Screens)
+## Core Features
 
-<details>
-<summary>Home</summary>
+| Area | Details |
+|------|---------|
+| Images | Unsplash search with attribution and download tracking |
+| Themes | Live preview, randomize option, curated presets |
+| Canvas | Hashnode/Dev.to sizing presets |
+| Export | DOM‑to‑image client export, crisp PNG |
+| UX | Keyboard‑friendly inputs, responsive layout |
 
-![Home](src/assets/images/cover1.webp)
+## UI Preview
 
-</details>
+### Homepage
 
-<details>
-<summary>Editor</summary>
+![Homepage](./src/assets/images/homepage.png)
 
-![Editor](src/assets/images/cover2.webp)
+### Editor
 
-</details>
+![Editor](./src/assets/images/editorpage.png)
 
-## Quickstart
+## Getting Started
 
+Prerequisites
+- Node.js 16+ (Create React App compatible)
+
+Install and run
 ```bash
 git clone https://github.com/Rambabu-Akkapolu/Coverlab.git
 cd Coverlab
@@ -47,22 +62,20 @@ echo REACT_APP_API_ACCESS_KEY=your_unsplash_api_key_here > .env
 npm start
 ```
 
-## Tech
+## Configuration
 
-- React + React Router
-- Tailwind CSS
-- Unsplash JS SDK
-- dom-to-image
+Create a `.env` file at the project root:
 
-## About
+```env
+REACT_APP_API_ACCESS_KEY=your_unsplash_api_key_here
+```
 
-Built by Rambabu Akkapolu
+Get an access key from Unsplash Developers, then restart the dev server.
 
-- Email: rambabuakkapolu970@gmail.com  
-- LinkedIn: https://www.linkedin.com/in/rambabu-akkapolu/  
-- X/Twitter: https://x.com/A_Rambabu_  
-- GitHub: https://github.com/Rambabu-Akkapolu
+## Planned Enhancements
 
----
+- Drag‑to‑reposition for image and title (finer control)
+- JPEG export, quality selector, and custom canvas sizes
+- Shareable template links (encode editor state in URL)
 
-Made with ❤️ using React and Tailwind CSS
+— Built with React and Tailwind CSS

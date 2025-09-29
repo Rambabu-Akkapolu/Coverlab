@@ -8,3 +8,10 @@
     width: 800px;
 
 }
+
+/* Mobile containment to avoid overflow */
+.cover-container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
